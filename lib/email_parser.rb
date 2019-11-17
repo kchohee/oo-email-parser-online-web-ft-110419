@@ -11,6 +11,6 @@ class EmailAddressParser
     e_a.split.collect do |address|
       address.split(",")
     end
-    .unique.flatten
+    .uniq.flatten
   end
 end
