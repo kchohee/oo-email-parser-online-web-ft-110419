@@ -7,7 +7,7 @@ class EmailAddressParser
  def initialize(email_addresses)
    @email_addresses = email_addresses
    end
-  def parse
+  def parse(email_address)
     (email_address.split.collect {|addresss| address.split(",")}).unique.flatten
   end
 end
