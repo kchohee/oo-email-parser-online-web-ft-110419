@@ -28,6 +28,6 @@ class EmailAddressParser
     #because the split is in the collect it reads the elements as a string but at the end "}" is put back into the new collect array in the array.
     # therefor we need to use ".flatten" to make it one array.
     # after that we need to put everything that is happening before .uniq.flatten in ()
-    #Because ruby reads all in parathesis first. This will then allow us to do everything in one line in correct order 
+    #Because ruby reads all in parathesis first. This will then allow us to do everything in one line in correct order
   end
 end
