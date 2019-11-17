@@ -9,7 +9,6 @@ def initialize(email_address)
 end
 def parse
 email_address.split.collect {|address|address.split(",")}
-end
 .flatten.uniq
    end
 
