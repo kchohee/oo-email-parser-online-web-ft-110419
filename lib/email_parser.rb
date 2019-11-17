@@ -4,7 +4,7 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 
-#Learn test paremeters 
+#Learn test paremeters
 
 class EmailAddressParser
   attr_accessor :e_add #allows to read and write for e_add
