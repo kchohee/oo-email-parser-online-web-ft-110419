@@ -8,5 +8,7 @@ class EmailAddressParser
    @e_a = e_a
    end
   def parse(e_a)
-    return (e_a.split.collect {|addresss| address.split(",")}).unique.flatten
+    e_a.split.collect do |addresss| address.split(",")
+    end
+    .unique.flatten
 end
